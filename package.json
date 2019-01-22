@@ -18,7 +18,9 @@
     "@nuxtjs/markdownit": "github:syffs/nuxtv2-markdownit",
     "@nuxtjs/pwa": "^2.0.8",
     "@sendgrid/client": "^6.3.0",
+    "axios": "^0.18.0",
     "bf-solid": "^2.10.6",
+    "date-fns": "^1.30.1",
     "fuse.js": "^3.2.1",
     "hoek": "^4.2.1",
     "netlify-lambda": "^0.4.0",
@@ -36,6 +38,6 @@
     "glob": "^7.1.2"
   },
   "engines": {
-    "node": ">10.x.x"
+    "node": "11.7.0"
   }
 }
