@@ -1,0 +1,20 @@
+{
+  "id": 22583,
+  "title": "Test live blog",
+  "date": "2013-06-18T13:09:08",
+  "body": "Testing live blogs, below:\n\n\\[liveblog\\]",
+  "image": {
+    "url": "",
+    "srcset": false
+  },
+  "excerpt": {
+    "full": "Testing live blogs, below: \\[liveblog\\]",
+    "short": "Testing live blogs, below:\r\n\r\n[liveblog]."
+  },
+  "author": 1,
+  "categories": [
+    1
+  ],
+  "tags": [],
+  "featured": false
+}

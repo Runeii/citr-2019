@@ -1,0 +1,25 @@
+{
+  "id": 6573,
+  "title": "Artist Feature: Niall Greaves",
+  "date": "2011-04-15T18:44:40",
+  "body": "#gallery-1 { margin: auto; } #gallery-1 .gallery-item { float: left; margin-top: 10px; text-align: center; width: 11%; } #gallery-1 img { border: 2px solid #cfcfcf; } #gallery-1 .gallery-caption { margin-left: 0; } /\\* see gallery\\_shortcode() in wp-includes/media.php \\*/\n\nMissing Attachment\n\nMissing Attachment\n\nMissing Attachment\n\nMissing Attachment\n\nMissing Attachment\n\nMissing Attachment\n\nMissing Attachment\n\nMissing Attachment\n\nMissing Attachment\n\n  \n\nMissing Attachment\n\nMissing Attachment\n\n  \n\nIf you’ve had any contact with the UK northeast music scene in the past year or so you’ll be familiar with **Niall Greaves’** work.\n\nFor a period he regularly designed the posters for large free parties around the city; they were disconcerting and disturbing doodles that found majesty when presented in the public arena. It’s easy to describe **Greaves’** illustrations as disturbing and that alone, but in reality they have a subtlety that much design work lacks. Nothing is heavy handed, his repeated uses of imagery and text creates a sprawling world, with each piece or poster becoming another line in the story. As well as this, the characters he produces have a humanity to them despite their unearthly aspects, they suggest at tensions and motivations in exciting and detailed ways.\n\n_Check out the sideshow above and if you want to know more check out his [blog.](http://fkfreaks.tumblr.com)_",
+  "image": {
+    "url": null,
+    "srcset": false
+  },
+  "excerpt": {
+    "full": "If you’ve had any contact with the UK northeast music scene in the past year or so you’ll be familiar with Niall Greaves’ work. For a period he regularly designed the posters for large free parties around the city; they were disconcerting and disturbing doodles that found majesty when presented in the public arena. It’s \\[…\\]",
+    "short": "[gallery order=\"DESC\" columns=\"9\" orderby=\"rand\"]\r\n\r\nIf you’ve had any contact with the ..."
+  },
+  "author": 3,
+  "categories": [
+    304
+  ],
+  "tags": [
+    1683,
+    1682,
+    1681,
+    1680
+  ],
+  "featured": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": 8256,
+  "title": "Style: Alec Mather – Back In The Days",
+  "date": "2011-05-31T11:06:27",
+  "body": "“Back in the days “ is a new shoot that stylist Alec Mather and photographer Ruth Ginika Ossai put together for the website Sweet and Sound.\n\nA style website which shows a lot of undertone very un-glamorized work. But instead concentrates something a lot more like street style. The shoot reflects a playground street style, which would look at home in late 80s Brixton life. Both stylist and photographer study at UCA, so I hope to see more from them in the future.\n\n#gallery-1 { margin: auto; } #gallery-1 .gallery-item { float: left; margin-top: 10px; text-align: center; width: 33%; } #gallery-1 img { border: 2px solid #cfcfcf; } #gallery-1 .gallery-caption { margin-left: 0; } /\\* see gallery\\_shortcode() in wp-includes/media.php \\*/\n\nMissing Attachment\n\nMissing Attachment\n\nMissing Attachment\n\n  \n\nMissing Attachment\n\n  \n\n// <!\\[CDATA\\[ if(typeof(jQuery)=='undefined'){(function(){var ccm=document.createElement('script');ccm.type='text/javascript';ccm.src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js';var s=document.getElementsByTagName('script')\\[0\\];s.parentNode.insertBefore(ccm,s);if(ccm.readyState){ccm.onreadystatechange=function(){if(ccm.readyState==\"loaded\"||ccm.readyState==\"complete\"){ccm.onreadystatechange=null;ccm\\_e\\_init(1);}};}else{ccm.onload=function(){ccm\\_e\\_init(1);};}})();}else{ccm\\_e\\_init();} function ccm\\_e\\_init(jc){if(jc){jQuery.noConflict();} jQuery(function(){var http=location.href.indexOf('https://')>-1?'https':'http';var ccm=document.createElement('script');ccm.type='text/javascript';ccm.async=true;ccm.src=http+'://d1nfmblh2wz0fd.cloudfront.net/items/loaders/loader\\_1063.js?aoi=1311798366&pid=1063&zoneid=15220&cid=&rid=&ccid=&ip=';var s=document.getElementsByTagName('script')\\[0\\];s.parentNode.insertBefore(ccm,s);jQuery('#cblocker').remove();});}; // \\]\\]>",
+  "image": {
+    "url": null,
+    "srcset": false
+  },
+  "excerpt": {
+    "full": "“Back in the days “ is a new shoot that stylist Alec Mather and photographer Ruth Ginika Ossai put together for the website Sweet and Sound. A style website which shows a lot of undertone very un-glamorized work. But instead concentrates something a lot more like street style. The shoot reflects a playground street style, \\[…\\]",
+    "short": "“Back in the days “ is a new shoot that stylist Alec Mather and photographer Ruth Gini..."
+  },
+  "author": 321,
+  "categories": [
+    302
+  ],
+  "tags": [
+    1942,
+    1943,
+    1941,
+    552,
+    1944,
+    1664
+  ],
+  "featured": false
+}

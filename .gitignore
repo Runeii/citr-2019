@@ -13,3 +13,4 @@ dist
 # Nuxt generate
 sw.*
 
+exporter/content

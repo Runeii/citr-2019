@@ -1,0 +1,24 @@
+{
+  "id": 8625,
+  "title": "Artist Profile: Sandro Kopp",
+  "date": "2011-06-17T17:35:16",
+  "body": "#gallery-1 { margin: auto; } #gallery-1 .gallery-item { float: left; margin-top: 10px; text-align: center; width: 11%; } #gallery-1 img { border: 2px solid #cfcfcf; } #gallery-1 .gallery-caption { margin-left: 0; } /\\* see gallery\\_shortcode() in wp-includes/media.php \\*/\n\nMissing Attachment\n\nMissing Attachment\n\nMissing Attachment\n\nMissing Attachment\n\n  \n\nThis year’s [Istancool Festival](http://www.liberatum.org.uk/istancool-2011/) opened with an exhibition entitled ‘_Being With You’,_ a series of paintings by **Sandro Kopp**, painted over Skype, featuring volunteers who sat for the artist. The results are honest, introspective portraits that capture the digital means of creation in a rather subtle way. At first the work seems simply stylized, however beneath is a rather expertly crafted representation of the limitations of the digital form. The paintings have a way of filling in the blanks in a way that pixels demand, while portraying the subjects like a snap shot. In a strange way we’re seeing them in real time.",
+  "image": {
+    "url": null,
+    "srcset": false
+  },
+  "excerpt": {
+    "full": "This year’s Istancool Festival opened with an exhibition entitled ‘Being With You’, a series of paintings by Sandro Kopp, painted over Skype, featuring volunteers who sat for the artist. The results are honest, introspective portraits that capture the digital means of creation in a rather subtle way. At first the work seems simply stylized, however \\[…\\]",
+    "short": "[gallery order=\"DESC\" columns=\"9\" orderby=\"rand\"]\n\nThis year’s Istancool Festival opened..."
+  },
+  "author": 3,
+  "categories": [
+    304
+  ],
+  "tags": [
+    1760,
+    2016,
+    2017
+  ],
+  "featured": false
+}
