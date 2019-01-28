@@ -15,18 +15,16 @@ var dynamicRoutes = getDynamicPaths({
 
 
 module.exports = {
+  server: {
+    host: '127.0.0.1'
+  },
   mode: "universal",
-  /*
-  ** Headers of the page
-  */
-transition: { mode: "in-out"},
   head: {
     title: siteInfo.sitename,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: siteInfo.sitedescription }
-
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -34,21 +32,13 @@ transition: { mode: "in-out"},
     ]
   },
   css: ["~/assets/grid.css","bf-solid/dist/solid.2.10.6.css"],
-  // icon: {
-  //   iconSrc: `${siteInfo.siteicon}`
-  //  },
-  /*
-  ** Customize the progress bar color
-  */
   loading: { color: '#3B8070' },
   modules: ['@nuxtjs/markdownit', '@nuxtjs/pwa','@nuxtjs/axios'],
   markdownit: {
     injected: true,
     preset: 'default',
     breaks: true,
-    html: true
-
-    
+    html: true    
   },
   manifest: {
     name: siteInfo.sitename,
@@ -76,19 +66,15 @@ transition: { mode: "in-out"},
   /*
   ** Route config for pre-rendering
   */
- router: {
-  scrollBehavior: function (to, from, savedPosition) {
-    return { x: 0, y: 0 }
+  router: {
+    scrollBehavior: function (to, from, savedPosition) {
+      return { x: 0, y: 0 }
+    }
   },
-middleware: ['title']
- },
   generate: {
     routes: dynamicRoutes
   },
-  plugins: ['~/plugins/vuefuse',{
-    src: "~/plugins/moment",
-    ssr: false
-  }],
+  plugins: [],
   /*
   ** Build configuration
   */

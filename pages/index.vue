@@ -1,60 +1,37 @@
 <template>
-
-    <BaelGrid :allitems="allBlogPosts"></BaelGrid>
+  <main class="index">
+    <Featured :data="posts[0]" />
+    <Featured :data="posts[1]" />
+    <Playlist :data="playlists.newMusic" />
+    <Featured :data="posts[2]" />
+  </main>
 </template>
 
 <script>
-import BaelGrid from "~/components/BaelGrid";
+import {mapState} from 'vuex'
+import Featured from '@/components/Featured.vue'
 export default {
-    watchQuery: ['page'],
-
-   transition (to, from) {
-     
-    if (!from) return 'fade'
-    return +to.query.page > +from.query.page ? 'slide-right' : 'slide-left'
+  name: 'Index',
+  components: {
+    Featured
   },
-  name: "Index",
-  components: { BaelGrid },
-  data() {
-    return {};
-  },
-  methods: {},
+  data () {
+    return {
+      playlists: {
+        newMusic: {
 
-  computed: {
-    allBlogPosts() {
-      return this.$store.state.blogPosts;
+        }
+      }
     }
+  },
+  computed: {
+    ...mapState(['posts'])
   }
-};
+}
 </script>
 
-<style>
-
-.browse a {
-  width: 100%;
-}
-.search:focus {
-  outline: none;
-}
-.footer__heading {
-  text-transform: uppercase;
-}
-nav .r {
-  grid-gap: 0;
-}
-.r.full-height {
-  grid-gap: 0;
-}
-@media only screen and (max-width: 40rem) {
-  .xs-collapse {
-    visibility: hidden;
-    visibility: collapse;
-    border: 0 !important;
-    border-color: none !important;
-    padding: 0 !important;
-  }
-  .xs-visible {
-    visibility: visible;
-  }
+<style lang="scss">
+.index {
+  
 }
 </style>
