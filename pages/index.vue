@@ -15,6 +15,11 @@ export default {
   components: {
     Featured
   },
+  async asyncData({ params, app, payload, route, store }) {
+    await store.dispatch('getSpotifyPlaylists')
+    console.log(store.state.spotifyPlaylists)
+    return ''
+  },
   data () {
     return {
       playlists: {
